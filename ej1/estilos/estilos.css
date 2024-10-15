@@ -1,0 +1,9 @@
+table {
+    width: 155px;
+    margin: 300px;
+}
+
+td, th{
+    color: blue;
+    background-color: aquamarine;
+}
