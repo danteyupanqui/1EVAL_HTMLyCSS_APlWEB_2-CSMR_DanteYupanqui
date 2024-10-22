@@ -1,0 +1,19 @@
+*{
+    background-color: aquamarine;
+}
+
+h1 {
+    color: blue;
+}
+
+p.fondorojo {
+    background-color: red;
+}
+
+p#unicoensucolor {
+    background-color: blanchedalmond;
+}
+div {
+    border: red 3px solid; 
+    margin: 100;
+}
