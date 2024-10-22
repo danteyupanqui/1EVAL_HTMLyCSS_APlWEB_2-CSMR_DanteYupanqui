@@ -1,9 +1,20 @@
+
+h2 {
+    color: forestgreen;
+    background-color: greenyellow;
+}
+
 table {
     width: auto;
-    margin: 300px;
+    margin: 300px
 }
 
 td, th{
     color: blue;
     background-color: aquamarine;
+}
+
+*{
+    background-color: deepskyblue;
+
 }

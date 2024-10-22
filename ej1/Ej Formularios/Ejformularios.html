@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Formularios-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
 </head>
 <body>
-   <form ="action="alert('pepe')">
-     <label for="">Nombre<input type="text"></label>
-     <label for="">Apellidos<input type="text"></label>
-     <label for="">DNI-NIE<input type="text"></label>
-     <label for="">Gmail<input type="text"></label>
-     <label for="">Edad <input type="number" name="" min="1" max="22"></label>
-        <label for="">contraseña</label> <input type="password">
-        <label for="">Elige tu Color Favorito<input type="color" name="Color" value="#ff0000"></label>
+    <!--la manera explicita-->
+   <form ="action="alert('Dante')">
+     <label for="nom">Nombre<input type="text" id="nom" placeholder="indique su nombre"></label>
+     <label for="ape">Apellidos<input type="text" id="ape" placeholder="Sus apellidos"></label>
+     <label for="dni">DNI-NIE<input type="text" id="dni" placeholder="Su DNI o NIE"></label>
+     <label for="correo">Gmail<input type="text" id="correo" placeholder="Su Correo electrónico"></label>
+     <label for="number">Edad <input type="number" id="number" min="1" max="22"></label>
+        <label for="contr">Contraseña</label> <input type="password" id="contr" placeholder="Una constraseña segura">
+        <label for="colour">Elige tu Color Favorito<input type="color" id="colour" name="Color" value="#ff0000"></label>
         <label for="">
             <p>Mes de Nacimiento</p>
-            <select name="" id="" required>
+            <select name="month" id="month" required>
             <option value="1">Enero</option>
             <option value="2">Febrero</option>
             <option value="3">Marzo</option>
@@ -68,7 +70,7 @@
 
         <p>Certificación de inglés</p>
         <label for="">
-            <input type="range" name="niveldeinglés" id="" list="rango-inglés" min="1" max="6">
+            <input type="range" name="niveldeinglés" id="niveldeinglés" list="rango-inglés" min="1" max="6">
             <datalist id="rango-inglés">
                 <option value="1">A1</option>
                 <option value="2">A2</option>
@@ -78,21 +80,23 @@
                 <option value="6">C2</option>   
             </datalist>
             
-
-
-
+            <p>como lo consegui</p>
+        <input type="checkbox" name="Cambridge">He aprobado el examen de Cambridge
+        <input type="checkbox" name="Academia">He obtenido el certificado por Academia de ingles    
         </label><br>
-
-        <label for=""><input type="checkbox" name="" id="">Marcar si soy disléxico</label>
+        <br>
+        <label for=""><input type="checkbox" name="" id="">Marcar si no lo conseguiste</label>
+        <br>
+        <p>Genero</p>
         <label for=""><input type="radio" name="Género" id=""value="h">hombre
             <input type="radio" name="Género" id=""value="m">mujer
             <input type="radio" name="Género" id=""value="o">otros
         </label>
-        <label for=""><input type="range" name="rango">indique su nivel de retraso</label>
-
+        <label for=""><input type="range" name="rango">indique su nivel de español</label>
+        <br>
         <label for="">
         <h4>Otra info</h4>
-        <textarea name="másinfo" id="másinfo" rows="15" cols="30"></textarea>
+        <textarea name="másinfo" id="másinfo" rows="15" cols="30" placeholder="Escriba lo que quiera"></textarea>
         </label>
 
 
