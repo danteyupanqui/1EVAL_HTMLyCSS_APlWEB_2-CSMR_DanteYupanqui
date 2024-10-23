@@ -1,15 +1,7 @@
-body{
-
-
-
-
-
-
-}
-
 h2 {
     color: forestgreen;
     background-color: greenyellow;
+    width: 75%;
 }
 
 table {
@@ -28,4 +20,8 @@ td, th {
 *{
     background-color: deepskyblue;
 
+}
+td.Recreo{
+    background-color: blue;
+    color: aliceblue;    
 }
