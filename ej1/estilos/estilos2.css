@@ -4,6 +4,7 @@
 
 h1 {
     color: blue;
+    background-color: gray;
 }
 
 p.fondorojo {
@@ -13,7 +14,20 @@ p.fondorojo {
 p#unicoensucolor {
     background-color: blanchedalmond;
 }
+footer {
+    margin: 7px;
+    padding: 10px;
+    border-color: snow;
+    border-style: dashed;
+    border-width: 15px;
+
+}
+
 div {
     border: red 3px solid; 
-    margin: 100;
+    margin: 10px;
+    padding: 10px;
+}
+footer p{
+    color:lime;
 }
