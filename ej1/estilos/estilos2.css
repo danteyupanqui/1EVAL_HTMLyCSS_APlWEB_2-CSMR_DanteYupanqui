@@ -15,12 +15,14 @@ p#unicoensucolor {
     background-color: blanchedalmond;
 }
 footer {
-    margin: 7px;
-    padding: 10px;
+    margin: 2px;
+    padding: 5px;
     border-color: snow;
-    border-style: dashed;
+    border-top: black 5px dashed;
+    border-left: blue 5px dashed;
+    border-right: red 5px dotted;
+    border-bottom: firebrick 5px solid;
     border-width: 15px;
-
 }
 
 div {
@@ -30,4 +32,13 @@ div {
 }
 footer p{
     color:lime;
+}
+p {
+border: silver 10px solid;
+margin: 10px;
+}
+blockquote {
+    padding: 3px 10px;
+    border: PowderBlue 5px solid;
+    border-radius: 20px;
 }

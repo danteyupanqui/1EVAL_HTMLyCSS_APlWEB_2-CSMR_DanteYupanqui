@@ -1,3 +1,11 @@
+body{
+
+
+
+
+
+
+}
 
 h2 {
     color: forestgreen;
@@ -5,15 +13,18 @@ h2 {
 }
 
 table {
-    width: auto;
-    margin: 300px
+    margin-left: auto;
+    margin-right: auto;
 }
 
-td, th{
+td, th {
+    text-align: center;
     color: blue;
     background-color: aquamarine;
-}
+    padding-right: 20px;
+    width: 5px;
 
+}
 *{
     background-color: deepskyblue;
 
