@@ -8,7 +8,31 @@ h2 {
     color: azure;
     text-align: center;
 }
+p.Parrafo0{
+    text-transform: capitalize;
+    font-size: 150%;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow: black 6px 6px 6px;
+
+}
+
 p.balón {
-    text-align: left;
+    text-align: auto;
     color: crimson;
+    word-spacing: 10px;
+}
+p.balón{ 
+    text-indent: 25px;
+    letter-spacing: 10px;
+}
+p.billi{
+    text-decoration: underline;
+    color: chocolate;
+    
+}
+span.bobo {
+    text-decoration: yellow;
+    text-decoration: line-through;
 }
