@@ -1,0 +1,14 @@
+body{
+    text-align: justify;
+    margin: auto;
+    background-color: darkturquoise;
+}
+h2 {
+    background-color: aquamarine;
+    color: azure;
+    text-align: center;
+}
+p.balón {
+    text-align: left;
+    color: crimson;
+}
