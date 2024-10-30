@@ -1,0 +1,25 @@
+body {
+    background-color: darkgray;
+}
+
+
+p.UCL {
+    text-decoration-color: aquamarine;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style-type: lower-greek;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+
+li {
+    background-color: blue;
+    margin: 11px;
+    width: 50%;
+
+}
