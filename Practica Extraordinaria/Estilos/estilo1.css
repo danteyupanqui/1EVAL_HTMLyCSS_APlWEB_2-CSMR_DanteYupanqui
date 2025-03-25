@@ -2,13 +2,15 @@
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
-
+hr {
+    border: 0.2px black solid;
+}
 h1 {
     text-transform: capitalize;
 }
 
 body {
-    background-color: aqua;
+    background-color: rgba(53, 65, 78, 0.336);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 3px;
     padding: 3px;
@@ -54,13 +56,26 @@ main {
     padding: 10px;
    
 }
-aside {
-    margin-top: 20px;
-    width: 20%;
-    height: 100px;
-    float: left;
-    background: purple;
+
+.Carac {
+    column-count: 3;
+    width: 60%;
+    height: 150%;
+    float: inline-end;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: darkorchid;
     padding: 10px;
+    border: 3px black solid;
+}
+
+aside {
+    margin-top: 23px;
+    width: 25%;
+    height: 620px;
+    float: left;
+    padding: 10px;
+    border: 3px black solid;
 }
 footer {
     text-align: center;
