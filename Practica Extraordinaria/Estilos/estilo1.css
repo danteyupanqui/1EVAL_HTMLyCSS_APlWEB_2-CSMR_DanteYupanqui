@@ -21,7 +21,7 @@ body {
 .container {
     background-color: cornflowerblue;
     width: 120%;
-    height: 1000px;
+    height: 1090px;
     max-width: 1700px;
     border: 2px solid grey;
     padding: 20px;
@@ -50,18 +50,18 @@ div.menu a {
 }
 
 main {
+    width: 70%;
+    float: left;
     text-decoration: dashed;
-    margin: 2px;
-    text-align: center;
     padding: 10px;
    
 }
 
 .Carac {
     column-count: 3;
-    width: 60%;
-    height: 150%;
-    float: inline-end;
+    width: 110%;
+    height: 170%;
+    float: left;
     margin-top: 10px;
     margin-bottom: 20px;
     background-color: darkorchid;
@@ -78,8 +78,23 @@ aside {
     border: 3px black solid;
 }
 footer {
+    margin: 15%;
     text-align: center;
     background: greenyellow;
     padding: 10px;
     clear: both;
+}
+
+.Black {
+    margin: 20px;
+    width: 280px;
+    height: 280px;    
+    padding-left: 30px;
+}
+.Rose {
+    float: right;
+    margin: 20px;
+    width: 280px;
+    height: 260px;    
+    padding-right: 30px;
 }
