@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+hr {
+    border: 0.2px black solid;
+}
+h1 {
+    text-transform: capitalize;
+}
+
+body {
+    background-color: rgba(53, 65, 78, 0.336);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+aside {
+    margin-top: 23px;
+    width: 25%;
+    height: 620px;
+    float: left;
+    padding: 10px;
+    border: 3px black solid;
+}
+footer {
+    margin: 15%;
+    text-align: center;
+    background: greenyellow;
+    padding: 10px;
+    clear: both;
+}
+.container {
+    background-color: cornflowerblue;
+    width: 120%;
+    height: 1300px;
+    max-width: 1700px;
+    border: 2px solid grey;
+    padding: 20px;
+}
+header {
+    margin: 8px;
+    text-decoration: underline;
+    text-align: center;
+    padding: 5px;
+}
+nav div{
+    background-color: grey;
+    display: inline-block; 
+    padding: 20px;
+    width: 24%; 
+    color: black; 
+    text-align: center; 
+}
+div.menu a {
+    background-color: black; 
+    color: grey; 
+    padding: 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-variant: small-caps; 
+}
+.imagen {
+    float: left;
+   margin: 20px;
+    width: 200px;
+    height: 215px;
+}
+main {
+    width: 70%;
+    float: left;
+    text-decoration: dashed;
+    padding: 10px;
+}
+.info {
+    float: left;
+    margin: 25px;
+    position: relative;
+    width: 500px;
+}
