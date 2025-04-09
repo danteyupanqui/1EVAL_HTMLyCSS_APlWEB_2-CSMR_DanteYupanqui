@@ -74,6 +74,9 @@ main {
     float: left;
     text-decoration: dashed;
     padding: 10px;
+    margin: 5px;
+    margin-top: 23px;
+    border: 3px black solid;
 }
 .info {
     float: left;
