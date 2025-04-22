@@ -12,7 +12,7 @@ body {
     width: 120%;
     height: 2100px;
     max-width: 1700px;
-    border: 2px solid grey;
+
     padding: 20px;
 }
 header {
@@ -43,15 +43,15 @@ main {
     width: 57%; 
     float: right;
     height: 1800px; 
-    margin-top: 30px; 
-    margin-right: 55px;
-    margin-left: 155px; 
-    padding: 20px; 
+    margin-top: 25px; 
+    margin-right: 105px;
+    margin-left: 75px; 
+    margin-bottom: 15px;
+    padding: 18px; 
     border: 2px black solid; 
     border-radius: 10px; 
    
 }
-
 aside {
     margin-top: 23px;
     width: 25%;
@@ -66,4 +66,7 @@ footer {
     background: greenyellow;
     padding: 10px;
     clear: both;
+}
+li {
+    margin: 5px;
 }

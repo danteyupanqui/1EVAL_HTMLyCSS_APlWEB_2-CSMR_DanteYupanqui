@@ -23,7 +23,6 @@ body {
     width: 120%;
     height: 1100px;
     max-width: 1700px;
-    border: 2px solid grey;
     padding: 20px;
 }
 header {
@@ -50,6 +49,7 @@ div.menu a {
 }
 
 main {
+   
     width: 70%;
     float: left;
     text-decoration: dashed;

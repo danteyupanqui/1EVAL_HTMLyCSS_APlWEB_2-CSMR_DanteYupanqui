@@ -36,9 +36,8 @@ footer {
 .container {
     background-color: cornflowerblue;
     width: 120%;
-    height: 1500px;
+    height: 1600px;
     max-width: 1700px;
-    border: 2px solid grey;
     padding: 20px;
 }
 header {
@@ -72,7 +71,7 @@ div.menu a {
 main {
     background-color: beige;
     width: 72%;
-    height: 1200px;
+    height: 1300px;
     float: left;
     margin: 5px;
     margin-top: 23px;
@@ -95,4 +94,7 @@ background-color:aquamarine
 }
 section {
     margin-top: 38px;
+}
+iframe {
+    margin-left: 50px;
 }
