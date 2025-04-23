@@ -67,6 +67,16 @@ footer {
     padding: 10px;
     clear: both;
 }
+fieldset {
+width: 73%;
+margin-top: 4px;
+padding: 20px;
+border: white 3px solid;
+border-radius: 5px;
+}
 li {
-    margin: 5px;
+    margin: 7px;
+}
+.form {
+    list-style-type: none;
 }
