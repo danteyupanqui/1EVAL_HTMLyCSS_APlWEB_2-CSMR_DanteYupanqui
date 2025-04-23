@@ -8,7 +8,9 @@ hr {
 h1 {
     text-transform: capitalize;
 }
-
+li {
+    margin: 5px;
+}
 body {
     background-color: rgba(53, 65, 78, 0.336);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
