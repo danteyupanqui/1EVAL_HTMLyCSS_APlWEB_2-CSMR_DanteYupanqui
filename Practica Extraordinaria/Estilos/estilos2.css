@@ -1,7 +1,6 @@
 body {
     background-color: rgba(53, 65, 78, 0.336);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 3px;
     padding: 3px;
     display: flex;
     flex-direction: column;
@@ -10,9 +9,8 @@ body {
 .container {
     background-color: cornflowerblue;
     width: 120%;
-    height: 2100px;
+    height: 1470px;
     max-width: 1700px;
-
     padding: 20px;
 }
 header {
@@ -42,13 +40,13 @@ main {
     background-color: grey; 
     width: 57%; 
     float: right;
-    height: 1800px; 
+    height: 1150px; 
     margin-top: 25px; 
     margin-right: 105px;
     margin-left: 75px; 
     margin-bottom: 15px;
     padding: 18px; 
-    border: 2px black solid; 
+    border: 3px black solid; 
     border-radius: 10px; 
    
 }
@@ -58,7 +56,7 @@ aside {
     height: 620px;
     float: left;
     padding: 10px;
-    border: 3px black solid;
+    border: 3px white solid;
 }
 footer {
     margin: 15%;
@@ -71,7 +69,7 @@ fieldset {
 width: 73%;
 margin-top: 4px;
 padding: 20px;
-border: white 3px solid;
+border: white 6px solid;
 border-radius: 5px;
 }
 li {
@@ -79,4 +77,8 @@ li {
 }
 .form {
     list-style-type: none;
+}
+.botones {
+    margin-left: 570px;
+    margin-top: 10px;
 }
