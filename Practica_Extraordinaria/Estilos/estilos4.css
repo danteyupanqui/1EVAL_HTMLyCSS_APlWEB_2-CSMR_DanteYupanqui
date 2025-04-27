@@ -39,7 +39,7 @@ footer {
 .container {
     background-color: cornflowerblue;
     width: 120%;
-    height: 1700px;
+    height: 1800px;
     max-width: 1700px;
     padding: 20px;
 }
@@ -74,7 +74,7 @@ div.menu a {
 main {
     background-color: whitesmoke;
     width: 72%;
-    height: 1400px;
+    height: 1500px;
     float: left;
     margin: 5px;
     padding: 8px;
