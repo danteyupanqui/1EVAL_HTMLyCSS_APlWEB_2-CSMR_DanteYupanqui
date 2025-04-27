@@ -11,10 +11,12 @@ h1 {
 li {
     margin: 5px;
 }
+th {
+    font-size: larger;
+}
 body {
     background-color: rgba(53, 65, 78, 0.336);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
     padding: 3px;
     display: flex;
     flex-direction: column;
@@ -99,4 +101,11 @@ section {
 }
 iframe {
     margin-left: 50px;
+}
+table {
+    margin: 20px;
+    padding-left: 55px;
+}
+iframe {
+    border: 0;
 }
